@@ -1,4 +1,5 @@
 //卷积神经网络！
+//模拟caffe的深度学习框架
 #include "gordon.NetParameter.pb.h"
 #include "gordon_cnn.hpp"
 #include <iostream>
