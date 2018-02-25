@@ -1,6 +1,6 @@
 #include "myBlob.hpp"
 #include <iostream>
-
+//增加几个字
 
 Blob operator+(Blob& A, double num)
 {

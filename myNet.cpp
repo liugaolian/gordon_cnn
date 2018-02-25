@@ -1,6 +1,6 @@
 #include "myNet.hpp"
 using namespace std;
-
+//增加几个字
 void NetParam::readNetParam(std::string file) 
 {
 	std::ifstream ifs;
