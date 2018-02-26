@@ -1,0 +1,14 @@
+﻿生成启动时间为 2018/2/26 0:09:56。
+     1>项目“E:\线上开课资料\Gordon_自己写CNN框架\1.2018.2.25_github上传版\project _win32\gordon_cnn\gordon_cnn.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\线上开课资料\Gordon_自己写CNN框架\1.2018.2.25_github上传版\project _win32\gordon_cnn\Debug\gordon_cnn.exe" /INCREMENTAL /NOLOGO lib_json.lib liblapack.lib libblas.lib libprotobuf.lib "libprotobuf-lite.lib" libprotoc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\线上开课资料\Gordon_自己写CNN框架\1.2018.2.25_github上传版\project _win32\gordon_cnn\Debug\gordon_cnn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\线上开课资料\Gordon_自己写CNN框架\1.2018.2.25_github上传版\project _win32\gordon_cnn\Debug\gordon_cnn.lib" /MACHINE:X86 Debug\gordon.NetParameter.pb.obj
+         Debug\main.obj
+         Debug\myBlob.obj
+         Debug\myLayer.obj
+         Debug\myNet.obj
+         gordon_cnn.vcxproj -> E:\线上开课资料\Gordon_自己写CNN框架\1.2018.2.25_github上传版\project _win32\gordon_cnn\Debug\gordon_cnn.exe
+     1>已完成生成项目“E:\线上开课资料\Gordon_自己写CNN框架\1.2018.2.25_github上传版\project _win32\gordon_cnn\gordon_cnn.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.44

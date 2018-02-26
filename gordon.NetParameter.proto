@@ -1,0 +1,33 @@
+syntax = "proto2";
+package gordon;
+
+//字典->Blob->value
+message LayerDictionary  //字典类
+ {
+   enum BlobType
+   {
+    WEIGHT = 0;  //权重
+    BIAS = 1;    //偏置
+   }
+  message ParamBlob  //Dictionary->add_blobs()
+   {
+		required int32 cube_num = 1;   //该Blob中cube总数（卷积核个数或者偏置个数）
+		required int32 cube_size = 2;    //该Blob中cube的尺寸（宽高）
+		required int32 cube_ch = 3;      //该Blob中cube的深度
+		required string lname = 4;        //该Blob所属层名
+		optional BlobType type = 5 [default = WEIGHT];  //默认为权重类型
+		message ParamValue
+		{
+			required double val = 1;    //double类型
+		}
+		repeated ParamValue param_val = 6;  //参数值
+  }
+  repeated ParamBlob blobs = 1;
+}
+
+message NetParameter 
+{
+  repeated LayerDictionary dict = 1;  //字典，每层都有1个层名和2个重要Blob（即weight和bias）
+}
+
+
